@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelSlider"
+    android:id="@+id/slider_background"
+    android:background="@drawable/background_opacity_final3">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="314dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:flipInterval="2000"
+        android:inAnimation="@android:anim/slide_out_right"
+        android:outAnimation="@android:anim/slide_in_left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="22dp">
+
+            <LinearLayout
+                android:id="@+id/activity1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bannerTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="138dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/back" />
+
+                <TextView
+                    android:id="@+id/titleTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:padding="8dp"
+                    android:text="Level : 1"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/descriptionTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#000"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:minLines="3"
+                    android:text="Easy Level" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="22dp">
+
+            <LinearLayout
+                android:id="@+id/activity2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bannerTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="138dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hiddenobject_back2" />
+
+                <TextView
+                    android:id="@+id/titleTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:padding="8dp"
+                    android:text="Level : 2"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/descriptionTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#000"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:minLines="3"
+                    android:text="Medium Level" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="22dp">
+
+            <LinearLayout
+                android:id="@+id/activity3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bannerTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="138dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/back3" />
+
+                <TextView
+                    android:id="@+id/titleTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:padding="8dp"
+                    android:text="Level : 3"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/descriptionTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:ellipsize="end"
+                    android:textColor="#000"
+                    android:maxLines="3"
+                    android:minLines="3"
+                    android:text="Hard Level" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/button3"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="nextView"
+        android:text="Next"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button2" />
+
+
+    <TextView
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/button3"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="previousView"
+        android:text="Previous"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

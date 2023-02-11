@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level_Two"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/screen1"
+        android:layout_width="742dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/hiddenobject_back2"
+        app:layout_constraintBottom_toTopOf="@+id/screen2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:id="@+id/add_pause2"
+            android:layout_width="22dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="700dp"
+            android:background="@drawable/hiddenobject_bandage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/penholder_find"
+            android:layout_width="43dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="99dp"
+            android:background="@drawable/hiddenobject_ballons"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.675"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/pot_find"
+            android:layout_width="38dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="256dp"
+            android:background="@drawable/hiddenobject_kite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.855"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:id="@+id/corn_find"
+            android:layout_width="45dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="99dp"
+            android:background="@drawable/hiddenobject_hat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.558"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/horn_find"
+            android:layout_width="45dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="99dp"
+            android:background="@drawable/hiddenobject_flag"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/banana_find"
+            android:layout_width="27dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="99dp"
+            android:background="@drawable/hiddenobject_hen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/duck_find"
+            android:layout_width="24dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/hiddenobject_duck"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/penholder_find"
+            app:layout_constraintHorizontal_bias="0.122"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/cross"
+            android:layout_width="62dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="350dp"
+            android:background="@drawable/ic_close_red"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/screen2"
+        android:layout_width="440dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text=" Balloon "
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            tools:layout_editor_absoluteY="5dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Kite "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Cap "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Flag "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Hen "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Duck "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+
+        </TextView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/timeclock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/ic_time"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

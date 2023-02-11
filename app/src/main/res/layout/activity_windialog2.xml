@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".windialog2">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:cardCornerRadius="40dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="344dp"
+            >
+
+
+            <TextView
+                android:id="@+id/textView_4"
+                android:layout_width="208dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="16dp"
+                android:text="You Win Well played"
+                android:textColor="@color/colorYello"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView4_4"
+                android:layout_width="245dp"
+                android:layout_height="134dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_4"
+                app:srcCompat="@drawable/win" />
+
+            <TextView
+                android:id="@+id/timewin_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Time :"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4_4" />
+
+
+            <TextView
+                android:id="@+id/score_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="Score :"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4_4" />
+
+            <ImageButton
+                android:id="@+id/list_4"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/ic_list"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/score_4"
+                app:strokeColor="#FFFFFF" />
+
+            <ImageButton
+                android:id="@+id/reload_4"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/ic_refresh"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.371"
+                app:layout_constraintStart_toEndOf="@+id/list_4"
+                app:layout_constraintTop_toBottomOf="@+id/score_4"
+                app:strokeColor="@color/white" />
+
+            <ImageButton
+                android:id="@+id/nextlevel_4"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="26dp"
+                android:background="@drawable/ic_nextlevel"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/score_4"
+                app:strokeColor="#FFFFFF" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_level_three">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/screen1"
+        android:layout_width="754dp"
+        android:layout_height="303dp"
+        android:background="@drawable/back3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/add_pause3"
+            android:layout_width="22dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="473dp"
+            android:background="@drawable/hiddenobject_bandage"
+            app:layout_constraintEnd_toStartOf="@+id/Bag_find"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/penholder_find"
+            android:layout_width="26dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="99dp"
+            android:background="@drawable/hiddenobject_trophy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/pot_find"
+            android:layout_width="47dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="167dp"
+            android:background="@drawable/hiddenobject_train"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.689"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:id="@+id/corn_find"
+            android:layout_width="39dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="99dp"
+            android:background="@drawable/rose"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.003"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/horn_find"
+            android:layout_width="39dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="275dp"
+            android:layout_marginEnd="99dp"
+            android:background="@drawable/hiddenobject_pizza"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/banana_find"
+            android:layout_width="36dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="257dp"
+            android:layout_marginEnd="99dp"
+            android:background="@drawable/hiddenobject_sandwitch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.323"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/Taddy_find"
+            android:layout_width="31dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="312dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="37dp"
+            android:background="@drawable/hiddenobject_teddy2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/Bag_find"
+            android:layout_width="22dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="515dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="120dp"
+            android:background="@drawable/hiddenobject_bag"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/cross"
+            android:layout_width="62dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="350dp"
+            android:background="@drawable/ic_close_red"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/screen2"
+        android:layout_width="495dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text=" Tropy "
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            tools:layout_editor_absoluteY="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Train "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Rose "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Pizza "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sandwitch "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Bag "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" teddy "
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-1dp">
+        </TextView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/timeclock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/ic_time"
+            android:textAlignment="textEnd">
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

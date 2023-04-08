@@ -1,4 +1,8 @@
 # Hidden_Object_Game_Using_Adroid
+# Using Technology
+Java, Xml
+# Installation
+Android studion, Java
 #Screenshot
 ![WhatsApp Image 2023-02-17 at 21 47 11](https://user-images.githubusercontent.com/93989396/219707790-8b465220-d95e-4f40-8622-d813a4c9dea5.jpg)
 ![WhatsApp Image 2023-02-17 at 21 47 13](https://user-images.githubusercontent.com/93989396/219707800-1a8e84a5-0e0f-4132-843c-17a585da530a.jpg)
